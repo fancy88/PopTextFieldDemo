@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2128488D3689586024B991F57A5CD9E3844A008C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2128488D3689586024B991F57A5CD9E3844A008C" : 9223372036854775807,
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E5956B9-DB3F-4AED-ABDE-8F5FB4815566",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2128488D3689586024B991F57A5CD9E3844A008C" : "PopTextFieldDemo\/",
+    "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PopTextFieldDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PopTextFieldDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GoodLuckFan\/PopTextFieldDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2128488D3689586024B991F57A5CD9E3844A008C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GoodLuckFan\/CirclePictureDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C39EAC4EC205DF9B9A0E146F905C070FDE1CAF"
+    }
+  ]
+}
