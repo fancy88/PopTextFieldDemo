@@ -49,8 +49,8 @@
         lineLabel.backgroundColor = RGB(242, 242, 242);
         [self addSubview:titleLabel];
         
-        self.accountTF = [self getTextFieldY:CGRectGetMaxY(titleLabel.frame) + 10 leftText:@"账号: " placeholder:@"请输入账号"];
-        self.passWordTF = [self getTextFieldY:CGRectGetMaxY(self.accountTF.frame) + 20 leftText:@"密码：" placeholder:@"请输入密码"];
+        self.accountTF = [self getTextFieldY:CGRectGetMaxY(titleLabel.frame) + 10 leftText:@"账 号:" placeholder:@"请输入账号"];
+        self.passWordTF = [self getTextFieldY:CGRectGetMaxY(self.accountTF.frame) + 20 leftText:@"密 码:" placeholder:@"请输入密码"];
         
         UIButton *cancelBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.passWordTF.frame) + 20, self.frame.size.width / 2, 30)];
         [cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
