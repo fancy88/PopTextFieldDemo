@@ -69,6 +69,8 @@
         [sureBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [sureBtn addTarget:self action:@selector(sureButtonclick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:sureBtn];
+        
+        [self addNoticeForKeyboard];
     }
     return self;
 }
