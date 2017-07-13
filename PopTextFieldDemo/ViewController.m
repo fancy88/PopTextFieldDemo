@@ -39,6 +39,11 @@
     
 }
 
+- (void)loginGatewayWithAccount:(NSString *)account Password:(NSString *)password{
+    NSLog(@"account: %@, password: %@", account, password);
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

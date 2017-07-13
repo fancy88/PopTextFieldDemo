@@ -114,14 +114,13 @@
 
 #pragma mark - Other Action
 - (void)sureButtonclick{
-    
-    NSDictionary *dic = @{
-                          @"account" : self.accountTF.text,
-                          @"password": self.passWordTF.text
-                          };
-    
-    if ([self.delegate respondsToSelector:@selector(loginGatewayWithDictionary:)]) {
-        [self.delegate loginGatewayWithDictionary:dic];
+    NSString *account  = self.accountTF.text;
+    NSString *password = self.passWordTF.text;
+    account = [account stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];//过滤左右空格
+    password = [password stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+
+    if ([self.delegate respondsToSelector:@selector(loginGatewayWithAccount:Password:)]) {
+        [self.delegate loginGatewayWithAccount:account Password:password];
     }
     
     [self dismissToInvisible];
@@ -163,6 +162,9 @@
     }
 }
 
-
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
+}
 
 @end

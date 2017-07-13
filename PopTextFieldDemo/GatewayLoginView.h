@@ -10,7 +10,7 @@
 
 @protocol GatewayLoginViewDelegate <NSObject>
 
-- (void)loginGatewayWithDictionary: (NSDictionary *)dictionary;
+- (void)loginGatewayWithAccount: (NSString *)account Password: (NSString *)password;
 
 @end
 
