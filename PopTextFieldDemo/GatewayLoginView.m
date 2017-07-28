@@ -41,7 +41,7 @@
         self.layer.cornerRadius = 10;
         self.clipsToBounds = YES;
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, 55)];
-        titleLabel.text = @"请输入网账号及密码";
+        titleLabel.text = @"请输入账号及密码";
         titleLabel.textAlignment = NSTextAlignmentCenter;
         titleLabel.font = [UIFont systemFontOfSize:15.0f];
         UILabel *lineLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, titleLabel.frame.size.height, frame.size.width, 1)];
@@ -116,7 +116,7 @@
 - (void)sureButtonclick{
     NSString *account  = self.accountTF.text;
     NSString *password = self.passWordTF.text;
-    account = [account stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];//过滤左右空格
+    account  = [account stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];//过滤左右空格
     password = [password stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 
     if ([self.delegate respondsToSelector:@selector(loginGatewayWithAccount:Password:)]) {
